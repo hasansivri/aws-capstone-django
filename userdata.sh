@@ -7,7 +7,7 @@ pip3 install boto3
 apt  install awscli -y
 cd /home/ubuntu/
 TOKEN=$(aws --region=us-east-1 ssm get-parameter --name /hasan/capstone/token --with-decryption --query 'Parameter.Value' --output text)
-git clone https://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@github.com/hasansivri/aws-capstone-django.git
+git clone https://token@github.com/hasansivri/aws-capstone-django.git
 cd /home/ubuntu/aws-capstone-django
 apt-get install python3.10-dev default-libmysqlclient-dev -y
 pip3 install -r requirements.txt
