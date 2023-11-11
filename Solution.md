@@ -406,7 +406,7 @@ apt-get update -y
 apt-get install git -y
 apt-get install python3 -y
 cd /home/ubuntu/
-TOKEN="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"
+TOKEN="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"  # ÖRNEK ALAN
 git clone https://$TOKEN@github.com/altazbhanji/capstone.git
 cd /home/ubuntu/capstone
 apt install python3-pip -y
@@ -418,6 +418,7 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py runserver 0.0.0.0:80
 ```
+
 
 In a browser check:
     - http://<public_dns_of_test_server>
